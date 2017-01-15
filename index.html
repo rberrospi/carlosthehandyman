@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Carlos the Handyman</title>
+		<meta name="viewport" content="width=device-width">
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;subset=latin,cyrillic-ext,latin-ext,cyrillic" rel="stylesheet">
+		<link rel="stylesheet" href="core/css/framework.css">
+		<link rel="stylesheet" href="modules/bxslider/jquery.bxslider.css">
+		<link rel="stylesheet" href="core/css/main.css">
+		<link rel="stylesheet" href="skins/yellow/css/skin.css">
+		<script src="core/js/libs/modernizr-2.6.2.min.js"></script>
+		<script src="core/js/libs/jquery-1.9.1.min.js"></script>
+		
+		<!-- Lightbox Gallery -->
+		<link rel="stylesheet" href="modules/prettyphoto/css/prettyPhoto.css">
+		<script src="modules/prettyphoto/js/jquery.prettyPhoto.js"></script>
+		
+		<!-- jQuery Image Hover Effect -->
+		<link rel="stylesheet" href="modules/hovereffect/styles.css">
+		<script src="modules/hovereffect/custom.js" type="text/javascript"></script>
+
+		<!-- Google Maps API -->
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+</head>
+<body class="home">
+	
+<header id="header">
+
+	<div class="container">
+		
+		<a href="homepage.html" class="logo">
+			<img src="skins/yellow/img/logo.png"/>
+		</a>
+
+		<nav>
+			<div class="desktop">
+				<ul>
+					
+					<li><a href="homepage.html" class="button th-red active">Home</a></li>
+					<li class="has-children">
+						<a href="gallery.html">Gallery</a>
+						<ul>
+							<li><a href="gallery2.html">Gallery 2 columns</a></li>
+							<li><a href="gallery3.html">Gallery 3 columns</a></li>
+							<li><a href="gallery4.html">Gallery 4 columns</a></li>
+						</ul>
+					</li>
+					<li><a href="contacts.html">Contacts</a></li>
+				</ul>
+			</div>
+			<div class="mobile">
+				<div class="styled-select"></div>
+			</div>
+		</nav>
+
+		<div class="slider">
+			<ul class="slides">
+				<li><a href="details.html"><img src="core/img/content/header-slider-1.jpg" title="Stylish apartments and extras in a completed complex, 500m from the beach" alt=""></a></li>
+				<li><a href="details.html"><img src="core/img/content/header-slider-2.jpg" title="Amazing beachfront apartments in a gated complex with private beach" alt=""></a></li>
+				<li><a href="details.html"><img src="core/img/content/header-slider-3.jpg" title="Luxury apartment in a complex with aristocratic appearance and many extras in Garden Beach" alt=""></a></li>
+				<li><a href="details.html"><img src="core/img/content/header-slider-5.jpg" title="2-bedrooms apartment, 2126 Sami Street, Savannah, Georgia 50210" alt=""></a></li>
+			</ul>
+			<div class="controls">
+				<div class="arrow prev"></div>
+				<div class="arrow next"></div>
+			</div>
+		</div>
+
+		<div class="quick-search">
+			<form method="post" action="#">
+
+				<div class="clearfix"></div>
+				<div class="train-railing tmobile">
+					<div class="railing"></div>
+					<h3 class="train">HOME AND BUSINESS REPAIRS/IMPROVEMENTS</h3>
+					<div class="railing"></div>
+				</div>
+						<div class="clearfix"></div>
+				<center><p><h3>Telephone: (631) 766-0381 / Lisenced and insured</h3></p></center>
+			</form>
+			
+		</div>
+		<div class="quick-search-shadow"></div>
+
+	</div>
+	<!--.container -->
+
+</header>
+<!--#header -->
+
+<section id="main" data-role="main">
+
+	<div class="container">
+
+		<div class="clearfix"></div>
+		<div class="train-railing separator m10">
+			<div class="railing"></div>
+			<h3 class="train">Owner operated with over 16 years of experience in:</h3>
+						<div class="railing"></div>
+		</div>
+        <div class="clearfix"></div>
+		<div class="box grid grid-fluid-2 promises">
+			<div class="col alpha">
+				<h6>Roofing<br />Plumbing<br />
+Siding  <br />  Molding<br />
+Kitchens<br />  Paint<br />
+Bathrooms<br /> Masonry<br />
+Basements<br /> Carpentry<br />
+Dormers and Extensions<br />  Electricity</h6>
+							</div>
+			<div class="col omega m-b-none">
+				<h6>Send us a picture for a Free Estimate</h6>
+		<form name='formulario' id='formulario' method='post' action='enviar.php' target='_self' enctype="multipart/form-data">
+<p>Name <input type='text' name='Name' id='Name'></p>
+<p>E-mail
+<input type='text' name='email' id='email'>
+</p>
+<p>Subject
+<input type='text' name='Subjet' id='Subjet' />
+</p>
+<p>Message
+<textarea name="Messaje" cols="20" rows="10" id="Messaje"></textarea>
+</p>
+<p>Upload: <input type='file' name='archivo1' id='archivo1'></p>
+<p>
+<input type='submit' value='Send'>
+</p>
+</form>
+			</div>
+			
+		</div>
+		
+		<div class="clearfix"></div>
+		<div class="train-railing separator"><br /><br />
+			<div class="railing"></div>
+			<h3 class="train">Browse by map</h3>
+			<div class="railing"></div>
+		</div>
+		<div class="box map">
+			<div id="properties-map" class="use-box-sizing-content-box"></div>
+		</div>
+
+		<div class="agents grid grid-fluid-2 m-t-40">
+			<div class="agent col alpha m-b-10">
+				<div class="photo">
+					<img src="core/img/content/agent.jpg" alt="">
+				</div>
+				<div class="data">
+					<h6>Meet our agents</h6>
+					<div class="descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque justo risus, dictum tincidunt eros. Nulla nec nunc urna ullamcorper.</div>
+					<a href="agents.html" class="button th-brown">Read more</a>
+				</div>
+			</div>
+			<div class="agent col omega m-b-10">
+				<div class="photo">
+					<img src="core/img/content/agent2.jpg" alt="">
+				</div>
+				<div class="data">
+					<h6>Why choose us</h6>
+					<div class="descr">Nunc augue lorem, facilisis quis luctus vel lacinia sed augue. Cubitur semper mollis nisl rhoncus. Integer tincidunt turpis luctus purus auctor.</div>
+					<a href="agents.html" class="button th-brown">Read more</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="testimonials m-t-40">
+			<ul>
+				<li>
+					<div class="testimonial">&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a justo risus, dictum eros. Nulla nec nunc a urna ullamcorper pellentesque at vel risus. Nunc augue lorem, facilisis quis vel lacinia sed augue. Cubitur semper mollis nisl rhoncus.&rdquo;</div>
+					<span class="author">Johnatan Smith</span>
+				</li>
+				<li>
+					<div class="testimonial">&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a justo risus, dictum eros. Nulla nec nunc a urna ullamcorper pellentesque at vel risus. Nunc augue lorem, facilisis quis vel lacinia sed augue. Cubitur semper mollis nisl rhoncus.&rdquo;</div>
+					<span class="author">Johnatan Smith</span>
+				</li>
+				<li>
+					<div class="testimonial">&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a justo risus, dictum eros. Nulla nec nunc a urna ullamcorper pellentesque at vel risus. Nunc augue lorem, facilisis quis vel lacinia sed augue. Cubitur semper mollis nisl rhoncus.&rdquo;</div>
+					<span class="author">Johnatan Smith</span>
+				</li>
+			</ul>
+			<div class="controls">
+				<div class="arrow prev"></div>
+				<div class="arrow next"></div>
+			</div>
+		</div>
+
+		<div class="clearfix"></div>
+
+	</div>
+	<!--.container -->
+
+</section>
+
+<footer id="footer">
+	<div class="container grid grid-fluid-3">
+		<div class="col alpha">
+			<ul class="links">
+				<li>
+					<h6>Home</h6>
+				</li>
+				<li>
+					<a href="#">Meet our agents</a>
+				</li>
+				<li>
+					<a href="#">Blog posts</a>
+				</li>
+				<li>
+					<a href="#">Contact us</a>
+				</li>
+				<li>
+					<a href="#">Terms of use</a>
+				</li>
+				<li>
+					<a href="#">Privacy policy</a>
+				</li>
+			</ul>
+			<ul class="links">
+				<li>
+					<h6>Shortcuts</h6>
+				</li>
+				<li>
+					<a href="#">Search</a>
+				</li>
+				<li>
+					<a href="#">Browse by map</a>
+				</li>
+				<li>
+					<a href="#">Properties</a>
+				</li>
+				<li>
+					<a href="#">Testimonials</a>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="col">
+			<h6>Who we are</h6>
+			<p>Nunc augue lorem, facilisis quis luctus vel lacinia sed augue. Cubitur semper mollis nisl rhoncus. Integer tincidunt turpis luctus purus auctor pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque justo risus, dictum tincidunt eros. </p>
+			<a href="#">Read more</a>
+		</div>
+
+		<div class="col omega">
+			<h6>Get regular updates</h6>
+			<p>Lorem ipsum dolor sit amet, consectetur adip elit. Pellentesque justo risus, dictum tincidunt. Nulla nec nunc a urna ullamcorper.</p>
+			<div class="newsletter-subscribe">
+				<form method="post" action="#">
+					<input type="text" placeholder="Type your email" class="text dark">
+					<input type="submit" value="Go" class="button th-red submit">
+				</form>
+			</div>
+
+			<ul class="social">
+				<li><a href="#" class="facebook"></a></li>
+				<li><a href="#" class="gplus"></a></li>
+				<li><a href="#" class="youtube"></a></li>
+				<li><a href="#" class="pinterest"></a></li>
+				<li><a href="#" class="twitter"></a></li>
+				<li><a href="#" class="rss"></a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+
+<script src="modules/bxslider/jquery.bxslider.min.js"></script>
+<script src="core/js/properties.js"></script>
+<script src="core/js/main.js"></script>
+
+</body>
+</html>

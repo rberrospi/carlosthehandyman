@@ -1,0 +1,344 @@
+/*
+ * Yellow skin definition
+ */
+ 
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+}
+
+html, body {
+	background: url(../img/bg.jpg) repeat left top;
+}
+
+a.regular {
+	border-bottom: 1px dotted #CD7E02;
+	color: #CD7E02;
+}
+
+.button.th-yellow,
+#header nav li:hover > a.active {
+	color: #ffffff;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, .5);
+	background: #FF0000;
+	background: -webkit-linear-gradient(top, #FF0000, #FF0000);
+	background: -moz-linear-gradient(top, #FF0000, #FF0000);
+	background: -ms-linear-gradient(top, #FF0000, #FF0000);
+	background: linear-gradient(top, #FF0000, #FF0000);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF0000', endColorstr='#FF0000',GradientType=0 );
+}
+
+#header nav .has-children .button.th-yellow {
+	color: #ffffff;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, .5);
+	padding: 11px 24px 11px 15px !important;
+	background: #fddd85;
+	background: -webkit-linear-gradient(top, #fddd85, #e69a0d);
+	background: -moz-linear-gradient(top, #fddd85, #e69a0d);
+	background: -ms-linear-gradient(top, #fddd85, #e69a0d);
+	background: linear-gradient(top, #fddd85, #e69a0d);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fddd85', endColorstr='#e69a0d',GradientType=0 );
+}
+
+.button.th-brown {
+	background: #614232;
+	background: -webkit-linear-gradient(top, #735749, #51301f);
+	background: -moz-linear-gradient(top, #735749, #51301f);
+	background: -ms-linear-gradient(top, #735749, #51301f);
+	background: linear-gradient(top, #735749, #51301f);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#735749', endColorstr='#51301f',GradientType=0 );
+}
+
+.button.th-grey {
+	background: #4a4a4a;
+	background: -webkit-linear-gradient(top, #737373, #4a4a4a);
+	background: -moz-linear-gradient(top, #737373, #4a4a4a);
+	background: -ms-linear-gradient(top, #737373, #4a4a4a);
+	background: linear-gradient(top, #737373, #4a4a4a);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#737373', endColorstr='#4a4a4a',GradientType=0 );
+}
+
+.button.th-red {
+	background: #ef5b42;
+	background: -webkit-linear-gradient(top, #ef5b42, #e14e35);
+	background: -moz-linear-gradient(top, #ef5b42, #e14e35);
+	background: -ms-linear-gradient(top, #ef5b42, #e14e35);
+	background: linear-gradient(top, #ef5b42, #e14e35);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5b42', endColorstr='#e14e35',GradientType=0 );
+}
+
+#header {
+	background: url(../img/header.jpg), url(../img/header2.jpg);
+	background-repeat: no-repeat,repeat-x;
+	background-position: 0 0,left top;
+	position: relative;
+}
+
+#header:after {
+	background: url(../img/header-line.png) repeat-x left top;
+}
+
+#header nav .active {
+	color: #ffffff;
+	font-style: italic;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, .5);
+}
+
+#header nav li:hover > a {
+	background: #FF0000;
+}
+
+#header nav .has-children:hover > a {
+	background-color: #FF0000;
+}
+
+#header nav li:hover ul li a {
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	background-color: #FF0000;
+}
+
+#header nav li:hover li:hover > a {
+	background-color: #643d1f;
+}
+
+#header .controls .arrow a {
+	width: 50px;
+	height: 50px;
+	background-color: rgba(255, 255, 255, .75);
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+	display: block;
+	position: relative;
+}
+
+#header .controls .arrow a:after {
+	content: "";
+	width: 21px;
+	height: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -15px 0 0 -10px;
+	background: url(../../../core/img/icons.png) no-repeat;
+}
+
+.svg #header .controls .arrow a:after {
+	background-image: url(http://www.unifato.net/estate/assets/core/img/icons.svg);
+}
+
+#header .controls .arrow.prev a:after {
+	background-position: -22px -567px;
+}
+
+#header .controls .arrow.next a:after {
+	background-position: -22px -631px;
+}
+
+.quick-search {
+	background: #fff;
+	background: -webkit-linear-gradient(top, #fff, #fff);
+	background: -moz-linear-gradient(top, #fdc74f, #fcb833);
+	background: -ms-linear-gradient(top, #fdc74f, #fcb833);
+	background: linear-gradient(top, #fdc74f, #fcb833);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#fcb833',GradientType=0 );
+	border: 1px #ff0000 solid;
+	border-bottom-color: #D20000;
+}
+
+.quick-search .filters > li:last-child {
+
+}
+
+.quick-search .advanced-search {
+	color: #FF0000;
+}
+
+.contact-info a {
+	color: #cd7e02;
+	display: block;
+	border-bottom: 1px #cd7e02 dotted;
+	float: left;
+	clear: left;
+	text-decoration: none;
+}
+
+.list-style-a a {
+	color: #FF0000;
+	text-decoration: none;
+}
+
+.list-style-a li:hover:before,
+.list-style-a .active:before {
+	background: #f5bc32;
+}
+
+.offer address p {
+	padding: 5px 10px;
+	max-height: 60px;
+	margin: 0;
+	color: #FF0000;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.list .offer address,
+.post h1.entry-title a {
+	color: #FF0000;
+}
+
+.box.general .list .offer address,
+.box.general .list .offer address a {
+	color: #FF0000;
+	line-height: 130%;
+}
+
+.offer a.sidebar-recent-posts {
+	color: #FF0000;
+	line-height: 130%;
+	display: inline-block;
+	padding-bottom: 5px;
+}
+
+.offer .prop-info .highlight {
+	background: #f5bc32;
+	color: #FF0000;
+	border-bottom: none;
+	line-height: 18px;
+}
+
+.offer .prop-info .highlight span {
+	color: #FF0000;
+}
+
+.offers .packed .offer {
+	color: #FF0000;
+}
+
+.offers .packed .price {
+	background: #f5bc32;
+	color: #FF0000;
+}
+
+.testimonials {
+	background: #dbd2cb;
+}
+
+.warning {
+ 	background-color: #f8cf36;
+}
+
+.error {
+ 	background-color: #ef5b42;
+}
+
+.info {
+ 	background-color: #53ddf2;
+}
+
+.success {
+ 	background-color: #8ed074;
+}
+
+.promises {
+	color: #FF0000;
+}
+
+#footer {
+	background: #4c3123;
+}
+
+#footer .col {
+	border-right: 1px #5a453a solid;
+}
+
+#footer .col:first-child {
+	border-left: 1px #5a453a solid;
+}
+
+#footer a {
+	border-bottom: 1px #f5bc32 dotted;
+}
+
+#footer a:hover {
+	color: #f5bc32;
+}
+
+#footer form .text.dark {
+	background: #3c2c23;
+	color: #766b63;
+}
+
+.entry-image .the-date {
+	background: #f5bc32;
+}
+
+.entry-meta a {
+	color: #cd7e02;
+	display: inline-block;
+	border-bottom: 1px #cd7e02 dotted;
+}
+
+#main .ui-accordion .ui-accordion-header {
+	background: #FF0000;
+}
+
+#main .ui-accordion .ui-state-active {
+	background: #f5bc32;
+	color: #FF0000;
+}
+
+#main .ui-tabs .ui-corner-top {
+	background: #FF0000;
+}
+
+#main .ui-tabs .ui-tabs-active a {
+	color: #FF0000;
+}
+
+.cloud-tags a.tag:hover {
+	border: 1px solid #F5BC32;
+}
+
+.filterbar {
+	background: #ded9d5;
+}
+
+.filterbar .listing-view-change .active {
+	color: #cd7e02;
+}
+
+.filterbar .listing-view-change .active:hover {
+	border-bottom: 1px #cd7e02 dotted;
+}
+
+.paging a {
+	border: 1px #c3c1bf solid;
+}
+
+/*
+ * Icons
+ */
+.icon {
+	display: inline-block;
+	background: #523120;
+}
+
+@media only screen and (max-width: 1024px) {
+	
+	.quick-search .filters select {
+		color: #4c3b2f;
+	}
+	
+}
+
+/*
+ * Custom styling on jQuery UI components
+ */
+ 
+#main .ui-tabs .ui-state-hover a {
+	background: #F5BC32;
+}
+
+#main .ui-tabs .ui-tabs-active {
+	background: #F5BC32;
+}
